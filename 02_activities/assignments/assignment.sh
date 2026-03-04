@@ -38,7 +38,7 @@ ls ./data/raw
 
 # 4. Create the directory ./data/processed, 
 #    then create the following sub-directories within it: server_logs, user_logs, and event_logs
-./data/processed
+mkdir ./data/processed
 cd ./data/processed
 mkdir server_logs
 mkdir user_logs
